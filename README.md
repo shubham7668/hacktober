@@ -7,4 +7,7 @@ contribute anything to participate in Hactober2022 🙌
 Contributions are always welcome!
 
 Fork repo, make changes, test, create a pull request.
+
+
+## show some love by giving star to this repo.
   
