@@ -1,0 +1,11 @@
+Quick sort Introduction:
+1. It is a Divide and Conquer Algorithm.
+2. Worst Case Time: O(n^2)
+3. Despite O(n^2) worst case, it is considered faster, because of the following reasons:
+    a> it is In-place algorithm.
+    b> it is Code-Friendly.
+    c> Average Case of Time Complexity is O(nlogn)
+    d> It is Tail Recursive.
+
+4. Partitioning Algo is the Key Function (Naive(stable but slow), Lomuto(faster but unstable), Hoare(fastest and most efficient but unstable)).
+      
