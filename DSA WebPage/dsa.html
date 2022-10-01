@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DSA Problem</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;1,300&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            margin: 1rem;
+            font-family: 'Ubuntu', sans-serif;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h2> Knapsack Problem</h2>
+
+    <h3>Problem Statement</h3>
+    In the 0–1 Knapsack problem, we are given a set of items, each with a weight and a value, and we need to determine
+    the number of each item to include in a collection so that the total weight is less than or equal to a given limit
+    and the total value is as large as possible.
+
+    Please note that the items are indivisible; we can either take an item or not (0-1 property). For example,
+
+    <h4>Test Case Example</h4>
+    Input:
+
+    value = [ 20, 5, 10, 40, 15, 25 ]
+    <br>
+    weight = [ 1, 2, 3, 8, 7, 4 ]
+    <br>
+    int W = 10
+    <br>
+    Output: Knapsack value is 60
+    <br>
+    value = 20 + 40 = 60
+    <br>
+    weight = 1 + 8 = 9 < W <section>
+        <h1>Solution</h1>
+        <code>
+        #include <iostream> <br>
+        #include <climits> <br>
+        using namespace std; <br>
+         
+        int knapsack(int v[], int w[], int n, int W) <br>
+        { <br>
+            if (W < 0) { <br>
+                return INT_MIN; <br>
+            } <br>
+         
+            if (n < 0 || W == 0) { <br>
+                return 0; <br>
+            } <br>
+         
+            
+    
+            int include = v[n] + knapsack(v, w, n - 1, W - w[n]); <br>
+         
+            int exclude = knapsack(v, w, n - 1, W); <br>
+         
+            return max(include, exclude); <br>
+        } <br>
+
+        int main() <br> 
+        { <br>
+            int v[] = { 20, 5, 10, 40, 15, 25 }; <br>
+            int w[] = { 1, 2, 3, 8, 7, 4 }; <br>
+         
+          
+            int W = 10; <br>
+        
+            int n = sizeof(v) / sizeof(v[0]); <br>
+         
+            cout << "Knapsack value is " << knapsack(v, w, n - 1, W);  <br>
+         
+            return 0; <br>
+        }</code> </section>
+
+        <section>
+
+            <h3>Output :</h3>
+            Knapsack value is 60
+
+
+        </section>
+</body>
+
+</html>
