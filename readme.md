@@ -1,3 +1,8 @@
+# Update  
+Not accepting c++/c dsa codes 
+Alternative -> Create a page using html & css  
+               Add dsa problem statement and solution in that
+
 ## Welcome to Hacktober Fest 
 
 • EVERYONE IS WELCOME    
