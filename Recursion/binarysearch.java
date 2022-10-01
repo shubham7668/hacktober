@@ -8,9 +8,6 @@ public class binarysearch {
       System.out.println(ans); 
     }
     public static int search(int nums[], int target, int s, int e) {
-
-
-        
         if(s>e){
             return -1;
         } 
@@ -23,5 +20,4 @@ public class binarysearch {
          }
          return search(nums, target, m+1, e);
      }
-    
 }
