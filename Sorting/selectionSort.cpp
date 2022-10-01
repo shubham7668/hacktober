@@ -1,38 +1,48 @@
-//Unstable Sorting Algorithm
-//Time Complexity: Theta(n^2) always
-void selectSort(arr,n)
+#include <iostream>
+using namespace std;
+ 
+void swap(int *a, int *b)
 {
-    int temp[n];
-    for(int i=0;i<n;i++)
-    {
-        int min_ind=0;
-        for(int j=1;j<n;j++)
-        {
-            if(arr[j] < arr[mid_ind])
-               mid_ind=j;  
-        }
-
-        temp[i]=arr[min_ind];
-        arr[min_ind]=INFINITY;
-
-    }
-    for(int i=0;i<n;i++)
-       arr[i]=temp[i];
+   int temp = *a;
+   *a = *b;
+   *b = temp;
 }
-
-
-
-//optimized Solution
-void selectSort(arr,n)
+ 
+void selectionSort(int arr[], int n)
 {
-    for(i=0;i<n-1;i++)
-    {
-        min_ind=i;
-        for(int j=i+1;i<n;j++)
-            if(arr[j]<arr[min_ind])
-               min_ind=j;
-
-
-      swap(arr[min_ind],arr[i]);         
-    }
+   int min_index;
+  
+   for (int i = 0; i < n-1; i++)
+   {
+       min_index = i;
+       for (int j = i+1; j < n; j++)
+       {
+           if (arr[j] < arr[min_index])
+               min_index = j;
+       }
+       swap(&arr[min_index], &arr[i]);
+   }
+}
+ 
+void printArray(int arr[], int n)
+{
+   for (int i = 0; i < n; i++)
+       cout << arr[i] << " ";
+   cout << "\n";
+}
+ 
+int main()
+{
+   int arr[] = {6, 3, 8, 9, 5};
+   int n = sizeof(arr)/sizeof(arr[0]);
+  
+   cout << "Given Array: ";
+   printArray(arr, n);
+  
+   selectionSort(arr, n);
+  
+   cout << "Sorted Array: ";
+   printArray(arr, n);
+  
+   return 0;
 }
