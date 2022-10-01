@@ -1,7 +1,8 @@
 # Update  
 Not accepting c++/c dsa codes      
-Alternative -> Create a page using html & css    
-               Add dsa problem statement and solution in that
+Alternative -> 1)Create a page using html & css    
+               Add dsa problem statement and solution in that  
+               2)You can contribute in python  
 # Make sure follow & star the repo for faster merge  
 
 ## Welcome to Hacktober Fest 
