@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Drive D/Projects/AxiosGit/tic-tac-toe-foss/app/src/main/res/layout/activity_main.xml" value="0.23645833333333333" />
+        <entry key="..\:/Drive D/Projects/AxiosGit/tic-tac-toe-foss/app/src/main/res/layout/activity_menu.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/naape/tic-tac-toe-foss/app/src/main/res/layout/activity_main.xml" value="0.18385416666666668" />
+        <entry key="..\:/Users/naape/tic-tac-toe-foss/app/src/main/res/layout/activity_menu.xml" value="0.18385416666666668" />
+        <entry key="..\:/Users/naape/tic-tac-toe-foss/app/src/main/res/layout/activity_splashscreen.xml" value="0.18385416666666668" />
+        <entry key="..\:/apps/tic-tac-toe-foss-main/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/apps/tic-tac-toe-foss-main/app/src/main/res/layout/activity_menu.xml" value="0.25" />
+        <entry key="..\:/apps/tic-tac-toe-foss-main/app/src/main/res/layout/activity_splashscreen.xml" value="0.25" />
+        <entry key="..\:/github/foss weekend/tic-tac-toe-foss/app/src/main/res/layout/activity_main.xml" value="0.14356884057971014" />
+        <entry key="..\:/github/foss weekend/tic-tac-toe-foss/app/src/main/res/layout/activity_menu.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.2884963768115942" />
+        <entry key="app/src/main/res/layout/activity_menu.xml" value="0.2884963768115942" />
+        <entry key="app/src/main/res/layout/activity_splashscreen.xml" value="0.2884963768115942" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
