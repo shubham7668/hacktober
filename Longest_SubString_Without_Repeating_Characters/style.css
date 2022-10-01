@@ -1,0 +1,9 @@
+.body {
+    margin: 0;
+    padding: 0;
+}
+
+.heading {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+}
