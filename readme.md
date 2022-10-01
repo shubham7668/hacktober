@@ -1,5 +1,6 @@
-# Rules
-Not accepting CPP/C dsa codes      
+## Rules  
+
+**Not accepting CPP/C dsa codes**     
 Alternative ->   
 1)Create a page using html & css Add dsa problem statement and solution in that    
 2)You can contribute in python and java OR
