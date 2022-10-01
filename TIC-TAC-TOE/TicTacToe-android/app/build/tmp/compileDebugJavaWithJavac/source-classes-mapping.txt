@@ -1,0 +1,8 @@
+com/ayush/tictactoe/databinding/ActivityMainBinding.java
+ com.ayush.tictactoe.databinding.ActivityMainBinding
+com/ayush/tictactoe/databinding/ActivityMenuBinding.java
+ com.ayush.tictactoe.databinding.ActivityMenuBinding
+com/ayush/tictactoe/BuildConfig.java
+ com.ayush.tictactoe.BuildConfig
+com/ayush/tictactoe/databinding/ActivitySplashscreenBinding.java
+ com.ayush.tictactoe.databinding.ActivitySplashscreenBinding
