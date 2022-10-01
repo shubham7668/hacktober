@@ -25,5 +25,5 @@
   
 [MIT](https://github.com/shubham7668/potfolio/blob/main/LICENSE)
 
-## Show some love by giving star to this repo.  
+## Make sure to star the repo*  
   
