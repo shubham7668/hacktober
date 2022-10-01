@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Hello There this is the title for our website!!</title>
+    <link rel="icon" type="image/x-icon" href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixabay.com%2Fimages%2Fsearch%2Fnature%2F&psig=AOvVaw29q30oI7kze1USBwTKETtW&ust=1664696647277000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCKCmpK_EvvoCFQAAAAAdAAAAABAE">
+    <style>
+        body{
+            margin: 10;
+            padding: 10;
+            background-color: bisque;
+        }
+      p{
+        color: rgb(0, 0, 0);
+        background-color: rgba(179, 255, 0, 0.76);
+      }
+      table{
+        border: 2px solid red;
+      }
+      button{
+        height: 30px;
+        border: 1px solid red;
+      }
+      button:hover{
+        background-color: gray;
+        border: 1px solid rgb(255, 145, 0);
+        border-radius: 5px;
+      }
+      span{
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-size: large;
+      }
+      #ab{
+        background-color: lightblue;
+      }
+      .heading{
+        background-color: rgb(255, 176, 80);
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      }
+    </style>
+</head>
+<body>
+    Hello World!!!
+    <h1 class="heading">There are different heading levels for different size of the heading. This heading also has a different font family.</h1>
+    <h1>Heading 1</h1>
+    <h2>Heading2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <H5>Heading 5</H5>
+    <h6>HEADING 6</h6>
+    <p>This a paragaraph written in paragraph tag</p>
+    <p>All the paragarph in this website have same background color proprerties so they all look same.</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam quod optio commodi ratione iure quisquam, ex neque rem, quia earum dolorem libero asperiores tempora magnam, dignissimos iusto consequatur rerum ut explicabo suscipit quam? Placeat, repellendus?</p>
+    <p><strong>The strong tag bolds the contesnt like this</strong></p>
+    <p><em>The em tag emphasise the content or italicises them</em></p>
+    <p>the br tag is used for <br> line breaks <br>like this</p>
+    The hr tag is used for horizontal line or rule
+    <hr>
+    <div>now we will use anchor tag which is used to create a reference to the link we want</div>
+    <div>
+        <a href="https://www.youtube.com/"> click on this link to go to youtube </a> <br>
+        <a href="https://www.youtube.com/" target="_blank"> this link will open in new tab instead of original one</a> <br>
+        <a href="/second.html" target="_blank">this will link to the another html file </a> <br>
+        The below is an example of img tag used to enter images. <br>
+        <img src="https://source.unsplash.com/160x90/?nature,water" alt="Can't show the image."> <br>
+        <img src="https://images.unsplash.com/photo-1611003228941-98852ba62227?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80" alt="Can't show the image." height="200" width="340"> <br>
+    </div>
+    <div>
+        Now we will se about Lists
+        <ul>
+            <li>This is the first item of unordered list</li>
+            <li>this is the second item of unordered list</li>
+        </ul>
+        <ol>
+            <li>This is the first item of ordered list</li>
+            <li>this is the second item of ordered list</li>
+        </ol>
+        <br>
+        ordered list are of various types like <br>
+        <ol type="A">
+            <li>This is the first item of ordered list</li>
+            <li>this is the second item of ordered list</li>
+        </ol>
+        <ol type="a">
+            <li>This is the first item of ordered list</li>
+            <li>this is the second item of ordered list</li>
+        </ol>
+        <br>
+        unordered are also of various types like <br>
+        <ul type="square">
+            <li>This is the first item of unordered list</li>
+            <li>this is the second item of unordered list</li>
+        </ul>
+        <ul type="circle">
+            <li>This is the first item of unordered list</li>
+            <li>this is the second item of unordered list</li>
+        </ul> <br>
+        there can also be nested list like <br>
+        <ol>
+            <li>First item</li>
+            <li>Second item</li>
+            <ol type="A">
+                <li>first item of nested list</li>
+            </ol>
+        </ol><br><br><br>
+    </div>
+    <div>
+        Now we will look into tables <br>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Class</th>
+                    <th>Roll No</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>First Name</td>
+                    <td>12</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>Second Name</td>
+                    <td>12</td>
+                    <td>2</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div>
+        Now we will see about forms <br>
+        <form action="Backend.js">
+            Name: <input type="text" name="User name"> <br> <!-- name tag is given so that backend can identify the input-->
+            Class: <input type="text" name="User class"> <br>
+
+            <div>
+                Roll: <input type="text" name="User roll number">
+            </div> <br>
+
+            <!-- div tag creates a new block so it takes a whole line in the site so it can be used to print the form on new line instead of using br tag which is not recommended -->
+            <div>
+                Above 18?: <input type="checkbox" name="age">
+            </div> <br>
+
+            <div>
+                Gender: Male <input type="radio" name="GENDER"> Female <input type="radio" name="GENDER">
+            </div> <br>
+
+            <div>
+                <input type="submit" name="SUBMIT">
+            </div> <br>
+            <button>
+                This is an example of a button
+            </button>
+            <div>
+                Write anything here: <br> <textarea name="BOX" cols="30" rows="10"></textarea>
+            </div> <br>
+
+            <label for="Married"> Married ? select for yes</label> <!--the label tag helps us to select the check box or input box by clicking the text  -->
+            <div>
+                <input type="checkbox" name="Married" id="Married">
+            </div> <br>
+
+            <div>
+                <label for="class"></label>
+                Select Class<select name="Class" id="class">
+                    <option value=" " selected >--select option--</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                </select>
+            </div>
+        </form>
+    </div>
+    <p id="ab">
+        <!-- wrtie span.class name to creatde a span of the desored class -->
+        <span class="redbg">
+            Hello World
+        </span> <br>
+        <!-- write span#id to create a span with desired id -->
+        <span id="name">THIS SPAN HAS id as NAME</span> <br>
+        <span> All the spans have a certain background colour and a different font size and font family than the rest of the document</span>
+        <!-- we can do this similar for a division by div.class.class2-->
+    </p>
+</body>
+</html>

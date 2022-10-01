@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+<body>
+    <h2>EMPLOYEE DETAILS</h2>
+    <form action="backend.php"></form>
+    <label for="name">Name</label>
+    <div>
+        <input type="text" name="myName" id="name">
+    </div>
+    <br>
+    <label for="role">Role</label>
+  <div>
+      <input type="text" name="myRole" id="role">
+  </div>
+  <br>
+  <!-- we will use css for line break later -->
+  <div>
+    Email:  <input type="email" name="myEmail" >
+</div>
+<br>
+<div>DOB: <input type="date" name="mydob" ></div>
+<br>
+<div>Salary:<input type="number" name="mysalary" ></div>
+<br><div>Are you eligible?:<input type="checkbox" name="my checkbox" id=""></div>
+<!-- write checked in last of above line for default check -->
+<br><div>Gender:Male<input type="radio" name="mygender"> Female<input type="radio" name="mygender">other<input type="radio" name="mygender" ></div>
+<br>
+<div>Write about yourself:<br><textarea name="aboutme" id="" cols="50" rows="5"></textarea></div>
+<br>
+<div>
+    <label for="car">Car:</label>
+    <select name="mycar" id="car">
+        <option value="Sw">Swift</option>
+        <option value="Ind">Indica</option>
+        <option value="Dat">Datsun</option>
+        <!-- if we write selected before swift then it will by default selected -->
+    </select>
+
+</div>
+<!-- name same thats why we are selecting one of gender at a time -->
+<br> <input type="submit" value="Submit Now">
+<input type="reset" value="Reset Now">
+
+</body>
+</html>

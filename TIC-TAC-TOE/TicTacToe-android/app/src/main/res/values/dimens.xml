@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="ImgBtn_layout">125dp</dimen>
+    <dimen name="LinrLayoutImg_margin_top">110dp</dimen>
+    <dimen name="ImgBtn_padding">0dp</dimen>
+    <dimen name="LinrLayoutRst_marginTop">75dp</dimen>
+    <dimen name="RstBtn_marginLtRt">20dp</dimen>
+    <dimen name="msgText_marginTop">40dp</dimen>
+</resources>

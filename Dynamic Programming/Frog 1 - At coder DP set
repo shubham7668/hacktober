@@ -1,0 +1,11 @@
+https://atcoder.jp/contests/dp/tasks/dp_a
+
+def solution(a):
+    if not a: return -1
+    posSet, i = set(), 
+    while i not in posSet:
+        posSet.add(i)
+        i += a[i]
+        if not ( <= i < len(a)):
+            return len(posSet)
+    return -1
