@@ -1,9 +1,9 @@
-# Update  
+# Rules
 Not accepting CPP/C dsa codes      
-Alternative -> 1)Create a page using html & css    
-               Add dsa problem statement and solution in that  
-               2)You can contribute in python  
-# Make sure follow me & star the repo for faster merge  
+Alternative ->   
+1)Create a page using html & css Add dsa problem statement and solution in that    
+2)You can contribute in python   
+3)Make sure follow me & star the repo  
 
 ## Welcome to Hacktober Fest 
 
