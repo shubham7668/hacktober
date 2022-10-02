@@ -1,10 +1,16 @@
 ## Rules  
 
-**Not accepting CPP/C dsa codes**     
+**NO DSA CODES WILL BE ALLOWED**  
 Alternative ->   
-1)Create a page using html & css Add dsa problem statement and solution in that    
-2)You can contribute in python and java OR
-  Ask for a issue assign      
+1)Create a page using HTML,CSS,JavaScript 
+2)You can contribute in projects of your choice whether it is based on
+ANDROID  
+WEB DEV  
+MACHINE LEARNING  
+ROBOTICS  
+PYTHON  
+
+
 3)Make sure follow me & star the repo  
 
 ## Welcome to Hacktober Fest 
