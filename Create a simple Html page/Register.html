@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>
+         Apply as employee
+      </title>
+      <style>
+         *{
+         margin: 0;
+         padding: 100;
+         box-sizing: border-box;
+         font-family: 'poppins',sans-serif;
+         }
+         body{
+         height: 500px;
+         width: 500px;
+         background-color: blue;
+         background-image: linear-gradient(to right,rgb(65, 52, 85), rgb(50, 203, 230));
+         align-items: center;
+         justify-content: center ;
+         }
+         div.main{
+         width: 500px;
+         margin: 100px auto 100px auto;
+         align-items: center;
+         justify-content: center;
+         padding-left: 150px;
+         position: absolute;
+         left: 550px;
+         top: 100px;
+         }
+         h2{
+         text-align: center;
+         padding: 30px;
+         font-family: sans-serif;
+         color: black;
+         }
+         div.register{
+         background-color: rgba(255, 255, 255, 0.993);
+         width : 800px;
+         font-size: 18px;
+         border-radius: 50px;
+         border: 1px solid rgba(225,255,255,0.3);
+         box-shadow: 10px 2px 15px
+         rgba(0,0,0,0.3);
+         color: #fff;
+         padding: 25px 30px;
+         position: relative;
+         margin-left:  1000px auto;
+         align-items: center;
+         }#lname{
+         width: 300px;
+         border:1px solid #ddd;
+         border-radius: 3px;
+         outline: 0;
+         padding: 15px;
+         background-color: #fff;
+         box-shadow: inset 1px 1px 5px
+         rgba(0,0,0,0.3);
+         }
+         #fname{
+         width: 300px;
+         border:1px solid #ddd;
+         border-radius: 3px;
+         outline: 0;
+         padding: 15px;
+         background-color: #fff;
+         box-shadow: inset 1px 1px 5px
+         rgba(0,0,0,0.3);
+         }
+         #email{
+         width: 300px;
+         border:1px solid #ddd;
+         border-radius: 3px;
+         outline: 0;
+         padding: 15px;
+         background-color: #fff;
+         box-shadow: inset 1px 1px 5px
+         rgba(0,0,0,0.3);
+         }
+         #tel{
+         width: 300px;
+         border:1px solid #ddd;
+         border-radius: 3px;
+         outline: 0;
+         padding: 15px;
+         background-color: #fff;
+         box-shadow: inset 1px 1px 5px
+         rgba(0,0,0,0.3);
+         }
+         #password{
+         width: 300px;
+         border:1px solid #ddd;
+         border-radius: 3px;
+         outline: 0;
+         padding: 15px;
+         background-color: #fff;
+         box-shadow: inset 1px 1px 5px
+         rgba(0,0,0,0.3);
+         }
+         #question{
+         width: 300px;
+         border:1px solid #ddd;
+         border-radius: 3px;
+         outline: 0;
+         padding: 15px;
+         background-color: #fff;
+         box-shadow: inset 1px 1px 5px
+         rgba(0,0,0,0.3);
+         }
+         #confirm{
+         width: 300px;
+         border:1px solid #ddd;
+         border-radius: 3px;
+         outline: 0;
+         padding: 15px;
+         background-color: #fff;
+         box-shadow: inset 1px 1px 5px
+         rgba(0,0,0,0.3);
+         }
+         #answer{
+         width: 300px;
+         border:1px solid #ddd;
+         border-radius: 3px;
+         outline: 0;
+         padding: 15px;
+         background-color: #fff;
+         box-shadow: inset 1px 1px 5px
+         rgba(0,0,0,0.3);
+         }
+         #sumbit{
+         width: 175px;
+         padding: 7px;
+         font-size: 16px;
+         font-family: sans-serif;
+         font-weight: 600;
+         border-radius: 50px;
+         background-color: rgba(15, 11, 206);
+         color: #fff;
+         cursor: pointer;
+         border: 1px solid rgba(0.0.0.0.0.3);
+         position: absolute;
+         right: 140px;
+         bottom: 60px;
+         }
+         .center{
+         display: block;
+         margin-left: auto;
+         margin-right: auto;
+         width: 150px;
+         height: 150px;
+         position: absolute;
+         top: 200px;
+         left:200px;
+         }
+         .welcome{
+         font-family: sans-serif;
+         font-size: 40px;
+         color:rgb(255, 255, 255);
+         position: absolute;
+         top: 400px;
+         left: 195px;
+         }
+         .p1{
+         font-family: sans-serif;
+         color: rgb(255, 255, 255);
+         position:absolute;
+         font-size: 25px;
+         width: 500px;
+         top:480px;
+         left:180px;
+         }
+         .p2{
+         font-family: sans-serif;
+         color: rgb(255, 255, 255);
+         position:absolute;
+         font-size: 25px;
+         width: 500px;
+         top:510px;
+         left:160px;
+         }
+         .p3{
+         font-family: sans-serif;
+         color: rgb(255, 255, 255);
+         position:absolute;
+         font-size: 25px;
+         width: 500px;
+         top:540px;
+         left:210px;
+         }
+         .login{
+         width: 175px;
+         padding: 7px;
+         font-size: 16px;
+         font-family: sans-serif;
+         font-weight: 600;
+         border-radius: 50px;
+         background-color: rgba(255, 255, 255,);
+         color: rgb(0, 0, 0);
+         cursor: pointer;
+         border: 1px solid rgba(0.0.0.0.0.3);
+         position: absolute;
+         top: 650px;
+         left: 190px;
+         }
+         .button1{
+         width: 160px;
+         padding: 7px;
+         font-size: 16px;
+         font-family: sans-serif;
+         font-weight: 600;
+         border-radius: 50px;
+         background-color: rgba(255, 255, 255,);
+         color: rgb(0, 0, 0);
+         cursor: pointer;
+         border: 1px solid rgba(0.0.0.0.0.3);
+         position: absolute;
+         right:200px;
+         top:10px;
+         }
+         .button2{
+         width: 160px;
+         padding: 7px;
+         font-size: 16px;
+         font-family: sans-serif;
+         font-weight: 600;
+         border-radius: 50px;
+         background-color: rgb(15, 11, 206);
+         color: rgb(0, 0, 0);
+         cursor: pointer;
+         border: 1px solid rgba(0.0.0.0.0.3);
+         position: absolute;
+         right:70px;
+         top:10px;
+         }
+         input:focus {
+         background-color: yellow;
+         }
+         .leftside{
+         position: absolute;
+         top: -105px;
+         }
+      </style>
+   </head>
+   <body>
+      <!-- <img src="rocket2.png" class="center"> -->
+      <div class="leftside">
+         <h3 class="welcome">Welcome</h3>
+         <p class="p1">You are 30 seconds</p>
+         <p class="p2">away from earning your</p>
+         <p class="p3">own money!</p>
+         <input type="submit" value="Login" name="login" id="login" class="login"> 
+      </div>
+      <div class="main">
+         <div class="register">
+            <h2> Apply as a Employee</h2>
+            <input type="submit" value="Employee" id="employee" name="employee" class="button1">
+            <form action="#">
+               <input type="submit" value="Hirer" id="hirer" name="hirer" class="button2"> 
+            </form>
+            <form id="register">
+               <input type="text" name="fname" id="fname" placeholder="First Name*" required onfocus="focusFunction()">
+               <script>
+                  function focusFunction() {
+                    document.getElementById("fname").style.borderColor = "yellow";
+                  }
+               </script>
+               &nbsp;&nbsp;&nbsp;&nbsp;
+               <input type="email" name="email" id="email" placeholder="Your Email*" required autofocus>
+               <br><br>
+               <input type="text" name="lname" id="lname" placeholder="Last  Name*" required autofocus>
+               &nbsp;&nbsp;&nbsp;&nbsp;
+               <input type="tel" name="tel" id="tel" placeholder="Your Phone Number*" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required autofocus>
+               <br><br>
+               <input type="password" name="password" id="password" placeholder="Password*" required>
+               &nbsp;&nbsp;&nbsp;&nbsp;
+               <input list="questions" name="question" id="question" placeholder="Please select your sequirity question" multiple required autofocus>
+               <datalist id="questions">
+                  <option value="Your first crush name">
+                  <option value="Your birthplace">
+                  <option value="Your petname">
+               </datalist>
+               <br><br>
+               <input type="password" name="confirm" id="confirm" placeholder="Confirm your password*" required autofocus>
+               &nbsp;&nbsp;&nbsp;&nbsp;
+               <input type="text" name="answer" id="answer" placeholder="Your answer*" required autofocus>
+               <br><br><br>
+               <input type="radio" id="male" name="gender" value="male">
+               <label for="male" class="radio-inline" style="color: black;">Male</label>
+               <input type="radio" id="female" name="gender" value="female">
+               <label for="female" style="color: black;">Female</label>
+               </label>
+               <br><br>
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+               <input type="submit" value="REGISTER" name="register" id="sumbit">
+            </form>
+         </div>
+      </div>
+   </body>
+</html>
