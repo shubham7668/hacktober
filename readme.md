@@ -2,8 +2,8 @@
 
 **NO DSA CODES WILL BE ALLOWED**  
 Alternative ->   
-1)Create a page using HTML,CSS,JavaScript 
-2)You can contribute in projects of your choice whether it is based on
+1)Create a page using HTML,CSS,JavaScript   
+2)You can contribute in projects of your choice whether it is based on  
 
 
    ANDROID  
