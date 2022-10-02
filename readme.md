@@ -4,11 +4,13 @@
 Alternative ->   
 1)Create a page using HTML,CSS,JavaScript 
 2)You can contribute in projects of your choice whether it is based on
-ANDROID  
-WEB DEV  
-MACHINE LEARNING  
-ROBOTICS  
-PYTHON  
+
+
+   ANDROID  
+   WEB DEV  
+   MACHINE LEARNING  
+   ROBOTICS  
+   PYTHON  
 
 
 3)Make sure follow me & star the repo  
