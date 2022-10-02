@@ -41,6 +41,4 @@ Alternative ->
 ## LICENSE
   
 [MIT](https://github.com/shubham7668/potfolio/blob/main/LICENSE)
-
-## Make sure to star the repo*  
   
