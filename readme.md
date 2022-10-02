@@ -13,7 +13,7 @@ Alternative ->
    PYTHON  
 
 3)Add snapshots of working project  
-4)Make sure follow me & star the repo   
+4)Make sure follow [Shubham](https://github.com/shubham7668) & star the repo   
 
 ## Welcome to Hacktober Fest 
 
