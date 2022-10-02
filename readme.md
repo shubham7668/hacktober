@@ -12,8 +12,8 @@ Alternative ->
    ROBOTICS  
    PYTHON  
 
-
-3)Make sure follow me & star the repo  
+3)Add snapshots of working project
+4)Make sure follow me & star the repo  
 
 ## Welcome to Hacktober Fest 
 
