@@ -1,0 +1,56 @@
+.container{
+    margin: 0;
+    display: block;
+    text-align: center;
+    height: 100vh;
+    
+}
+
+#decreasebtn{
+    border: solid 3px red;
+    padding: 5px;
+    margin: 5px;
+    background-color: yellow;
+    display: inline;
+    font-family: cursive;
+}
+
+#increasebtn{
+    border: solid 3px red;
+    padding: 5px;
+    margin: 5px;
+    background-color: yellow;
+    display: inline;
+    font-family: cursive;
+
+}
+
+#resetbtn{
+    border: solid 3px red;
+    padding: 5px;
+    margin: 5px;
+    background-color: yellow;
+    display: inline;
+    font-family: cursive;
+
+}
+
+#counterlabel{
+    font-size: 50px;
+    font-family: cursive;
+}
+
+#decreasebtn:hover{
+    cursor: pointer;
+    background-color: lightsalmon;
+}
+
+#increasebtn:hover{
+    cursor: pointer;
+    background-color: lightsalmon;
+}
+
+#resetbtn:hover{
+    cursor: pointer;
+    background-color: lightsalmon;
+}
