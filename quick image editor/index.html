@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="theme-color" content="#9b70e5">
+
+    <meta name="title" content="Quick-Image Editor">
+    <meta name="description" content="Easy Image Editor to fix your images | This is a part of a project by Pranjal Kumar">
+
+    <link rel="apple-touch-icon" sizes="180x180" href=".res/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href=".res/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href=".res/favicon-16x16.png">
+    <link rel="shortcut icon" href="./res/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="./res/favicon.ico" type="image/x-icon">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://quick-image.vercel.app/">
+    <meta property="og:title" content="Quick-Image | Easy Image Editor to fix your images">
+    <meta property="og:description" content="Easy Image Editor to fix your images | This is a part of a project by Pranjal Kumar">
+    <meta property="og:image" content="https://raw.githubusercontent.com/pranjal-barnwal/quick-image/main/res/seo.png?token=GHSAT0AAAAAABXDMZVGNINZBID7MHBIPN5WYXIVM4Q">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://quick-image.vercel.app/">
+    <meta property="twitter:title" content="Quick-Image | Easy Image Editor to fix your images">
+    <meta property="twitter:description" content="Easy Image Editor to fix your images | This is a part of a project by Pranjal Kumar">
+    <meta property="twitter:image" content="https://raw.githubusercontent.com/pranjal-barnwal/quick-image/main/res/seo.png?token=GHSAT0AAAAAABXDMZVGNINZBID7MHBIPN5WYXIVM4Q">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Quick-Image | Easy Image Editor to fix your images</title>
+</head>
+
+<body>
+    <div class="container disable">
+        <h2>Quick-Image</h2>
+
+        <div class="wrapper">
+            <div class="editor-panel">
+                <div class="filter">
+                    <label for="" class="title">Filters</label>
+                    <div class="options">
+                        <button class="btn" id="brightness">
+                            Brightness <i class="fa-solid fa-sun"></i>
+                        </button>
+
+                        <button class="btn" id="saturation">
+                            Saturation <i class="fa-solid fa-fill-drip"></i>
+                        </button>
+
+                        <button class="btn" id="inversion">
+                            Inversion <i class="fa-solid fa-circle-half-stroke"></i>
+                        </button>
+
+                        <button class="btn" id="grayscale">
+                            Grayscale <i class="fa-solid fa-circle-dot"></i>
+                        </button>
+                    </div>
+
+                    <div class="slider">
+                        <div class="filter-info">
+                            <p class="name">Brightness</p>
+                            <p class="value">100%</p>
+                        </div>
+                        <input type="range" value="100" min="0" max="200">
+                    </div>
+
+                    <div class="rotate">
+                        <label for="" class="title">Rotate & Flip</label>
+                        <div class="options">
+                            <button class="btn" id="left">
+                                <box-icon name='rotate-left'></box-icon>
+                            </button>
+
+                            <button class="btn" id="right">
+                                <box-icon name='rotate-right'></box-icon>
+                            </button>
+
+                            <button class="btn" id="horizontal">
+                                <box-icon name='reflect-vertical'></box-icon>
+                            </button>
+
+                            <button class="btn" id="vertical">
+                                <box-icon name='reflect-horizontal'></box-icon>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="preview-img">
+                <img src="./res/sample-image.svg" alt="preview-img">
+            </div>
+        </div>
+
+        <div class="controls">
+            <button class="reset-filter">
+                Reset Filters <i class="fa-solid fa-filter-circle-xmark"></i>
+            </button>
+            <div class="row">
+                <input type="file" class="file-input" accept="image/*" hidden>
+                <button class="choose-img">
+                    Choose Image <i class="fa-solid fa-upload"></i>
+                </button>
+                <button class="save-img">
+                    Download Image <i class="fa-solid fa-file-image"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer__socials">
+        <a href="https://www.linkedin.com/in/pranjal-kumar-ac/" class="social_icon" target="_blank">
+            <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a href="https://github.com/pranjal-barnwal" class="social_icon_blank" target="_blank">
+            <i class="fa-brands fa-github-alt"></i></i>
+        </a>
+        <a href="https://twitter.com/PranjalBarnwal_" class="social_icon_blank" target="_blank">
+            <i class="fa-brands fa-twitter"></i>
+        </a>
+        <a href="https://wa.me/916202684281?text=Hi%20Pranjal" class="social_icon  footer__social" target="_blank">
+            <i class="fa-brands fa-whatsapp"></i>
+        </a>
+    </div>
+
+    <div class="footer">
+        ©️<span id="currYear"></span> <a href="https://www.linkedin.com/in/pranjal-kumar-ac/" class="sign">Pranjal
+            Kumar</a>
+        || All rights reserved
+    </div>
+
+    
+    
+    
+    <script src="./script.js"></script>
+    
+    <script src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></script>
+
+    <script src="https://kit.fontawesome.com/ecc813922e.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
