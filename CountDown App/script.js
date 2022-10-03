@@ -7,7 +7,9 @@ let secEl = document.getElementById('sec');
 function countdown(){
 
 var currentTime= new Date().getTime();    // Curent Time
-const newYear = new Date("dec 31, 2022 23:59:59").getTime();    // destination time
+ 
+ var year = new Date().getFullYear();  // gives us the current year
+const newYear = new Date(`dec 31, ${year} 23:59:59`).getTime();    // destination time
 
 var difference = newYear - currentTime;
 // you have got the answere but in milliseconds
