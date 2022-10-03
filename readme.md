@@ -2,8 +2,8 @@
 
 **NO DSA CODES WILL BE ALLOWED**  
 Alternative ->   
-1)Create a page using HTML,CSS,JavaScript(If you are new to open source). 
-2)Or else You can contribute in projects of your choice whether it is based on  
+1)Create a page using HTML,CSS,JavaScript(If you are new to open source).   
+2)Or else You can contribute in projects of your choice whether it is based on    
 
    •ANDROID  
    •WEB DEV  
@@ -12,8 +12,8 @@ Alternative ->
    •PYTHON  
    •Any techstack(But make sure it is worthy enough!)
 
-3)Add snapshots of working project.  
-4)Make sure follow [Shubham](https://github.com/shubham7668) & star the repo.   
+3)Add snapshots of working project.    
+4)Make sure follow [Shubham](https://github.com/shubham7668) & star the repo.     
   
 NOTE ⚠ : Dont push non working projects we will thoroughly check.
 
