@@ -1,11 +1,19 @@
 ## Rules  
 
-**Not accepting CPP/C dsa codes**     
+**NO DSA CODES WILL BE ALLOWED**  
 Alternative ->   
-1)Create a page using html & css Add dsa problem statement and solution in that    
-2)You can contribute in python and java OR
-  Ask for a issue assign      
-3)Make sure follow me & star the repo  
+1)Create a page using HTML,CSS,JavaScript   
+2)You can contribute in projects of your choice whether it is based on  
+
+
+   ANDROID  
+   WEB DEV  
+   MACHINE LEARNING  
+   ROBOTICS  
+   PYTHON  
+
+3)Add snapshots of working project  
+4)Make sure follow [Shubham](https://github.com/shubham7668) & star the repo   
 
 ## Welcome to Hacktober Fest 
 
@@ -33,6 +41,4 @@ Alternative ->
 ## LICENSE
   
 [MIT](https://github.com/shubham7668/potfolio/blob/main/LICENSE)
-
-## Make sure to star the repo*  
   
