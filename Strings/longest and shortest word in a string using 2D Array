@@ -1,0 +1,41 @@
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+    char s1[100][100],s[100];
+    int max,min,m=0,n=0,k=0,j=0,i;
+    printf("Enter the string: ");
+    gets(s);
+    for(i=0;s[i]!='\0';i++)
+    {
+        if(s[i]==' ')
+        {
+            s1[k][j]='\0';
+            k++;
+            j=0;
+        }
+        else
+        {
+            s1[k][j]=s[i];
+            j++;
+        }
+    }                                           //LONGEST AND SHORTEST WORD
+    s1[k][j]='\0';
+    max=strlen(s1[0]);
+    min=strlen(s1[0]);
+    for(i=1;i<=k;i++)
+    {
+        if(strlen(s1[i])>max)
+        {
+          m=i;
+          max=strlen(s1[m]);
+        }
+        if(strlen(s1[i])<min)
+        {
+          n=i;
+          min=strlen(s1[n]);
+        }
+    }
+    printf("the longest word is %s\n",s1[m]);
+    printf("the shortest word is %s",s1[n]);
+}
