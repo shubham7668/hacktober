@@ -1,9 +1,9 @@
 ## contributing  
 
 
-**1.**  Fork [hhis](https://github.com/shubham7668/hacktober) repository.
+**1.** Fork [this](https://github.com/shubham7668/hacktober) repository.
 
-**2.**  Clone your forked copy of the project.
+**2.** Clone your forked copy of the project.
 
 **3.** Navigate to the project directory :file_folder:.  
 
@@ -17,12 +17,12 @@
 
 **8.** Perfom your desired changes to the code base.  
 
-**10.** Commit your changes.  
+**9.** Commit your changes.  
 
-**11.** Push the committed changes in your feature branch to your remote repo.  
+**10.** Push the committed changes in your feature branch to your remote repo.  
 
-**12.** To create a pull request, click on `compare and pull requests`.   
+**11.** To create a pull request, click on `compare and pull requests`.   
 
-**13.** Add appropriate title and description to your pull request explaining your changes and efforts done.  
+**12.** Add appropriate title and description to your pull request explaining your changes and efforts done.  
 
-**14.** Click on `Create Pull Request`.
+**13.** Click on `Create Pull Request`.
