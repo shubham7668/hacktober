@@ -1,7 +1,8 @@
 #include <iostream>
 using namespace std;
 
-int main() {
+int main() // start of main fuction
+ {
     int n, t1 = 0, t2 = 1, nextTerm = 0;
 
     cout << "Enter the number of terms: ";
@@ -19,11 +20,12 @@ int main() {
             cout << t2 << ", ";
             continue;
         }
+        // swapping 
         nextTerm = t1 + t2;
         t1 = t2;
         t2 = nextTerm;
         
         cout << nextTerm << ", ";
     }
-    return 0;
-}
+    return 0; 
+}// end of program 
