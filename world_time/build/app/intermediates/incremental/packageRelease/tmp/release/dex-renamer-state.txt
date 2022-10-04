@@ -1,0 +1,4 @@
+#Sun Sep 25 01:09:08 IST 2022
+base.0=D\:\\Android Projects\\world_time\\build\\app\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
