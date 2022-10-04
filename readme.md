@@ -13,7 +13,7 @@ Alternative ->
    •PYTHON  
    •Any techstack(But make sure it is worthy enough!)
 
-3)Add snapshots of working project.    
+3)Add snapshots of working project or **Deployed link**.    
 4)Make sure follow [Shubham](https://github.com/shubham7668) & star the repo.     
   
 NOTE ⚠ : Dont push non working projects we will thoroughly check.
