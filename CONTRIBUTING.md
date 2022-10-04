@@ -5,7 +5,7 @@
 
 **2.** Clone your forked copy of the project.
 
-**3.** Navigate to the project directory :file_folder:.  
+**3.** Navigate to the project directory.  
 
 **4.** Add a reference(remote) to the original repository.  
 
