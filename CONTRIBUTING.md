@@ -1,4 +1,4 @@
-## contributing  
+## Contributing  
 
 
 **1.** Fork [this](https://github.com/shubham7668/hacktober) repository.
