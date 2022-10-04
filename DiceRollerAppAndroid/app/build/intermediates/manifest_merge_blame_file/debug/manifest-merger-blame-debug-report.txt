@@ -1,0 +1,83 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.caioiox.diceroller"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\zeroa\OneDrive\Documentos\GitHub\hacktober\DiceRollerAppAndroid\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->C:\Users\zeroa\OneDrive\Documentos\GitHub\hacktober\DiceRollerAppAndroid\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\Users\zeroa\OneDrive\Documentos\GitHub\hacktober\DiceRollerAppAndroid\app\src\main\AndroidManifest.xml:5:5-28:19
+12        android:allowBackup="true"
+12-->C:\Users\zeroa\OneDrive\Documentos\GitHub\hacktober\DiceRollerAppAndroid\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.8.0] C:\Users\zeroa\.gradle\caches\transforms-3\6a19de105318aab1da00cfa3c60fb56e\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+14        android:dataExtractionRules="@xml/data_extraction_rules"
+14-->C:\Users\zeroa\OneDrive\Documentos\GitHub\hacktober\DiceRollerAppAndroid\app\src\main\AndroidManifest.xml:7:9-65
+15        android:debuggable="true"
+16        android:fullBackupContent="@xml/backup_rules"
+16-->C:\Users\zeroa\OneDrive\Documentos\GitHub\hacktober\DiceRollerAppAndroid\app\src\main\AndroidManifest.xml:8:9-54
+17        android:icon="@mipmap/ic_launcher"
+17-->C:\Users\zeroa\OneDrive\Documentos\GitHub\hacktober\DiceRollerAppAndroid\app\src\main\AndroidManifest.xml:9:9-43
+18        android:label="@string/app_name"
+18-->C:\Users\zeroa\OneDrive\Documentos\GitHub\hacktober\DiceRollerAppAndroid\app\src\main\AndroidManifest.xml:10:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->C:\Users\zeroa\OneDrive\Documentos\GitHub\hacktober\DiceRollerAppAndroid\app\src\main\AndroidManifest.xml:11:9-54
+20        android:supportsRtl="true"
+20-->C:\Users\zeroa\OneDrive\Documentos\GitHub\hacktober\DiceRollerAppAndroid\app\src\main\AndroidManifest.xml:12:9-35
+21        android:testOnly="true"
+22        android:theme="@style/Theme.DiceRoller" >
+22-->C:\Users\zeroa\OneDrive\Documentos\GitHub\hacktober\DiceRollerAppAndroid\app\src\main\AndroidManifest.xml:13:9-48
+23        <activity
+23-->C:\Users\zeroa\OneDrive\Documentos\GitHub\hacktober\DiceRollerAppAndroid\app\src\main\AndroidManifest.xml:15:9-27:20
+24            android:name="com.caioiox.diceroller.MainActivity"
+24-->C:\Users\zeroa\OneDrive\Documentos\GitHub\hacktober\DiceRollerAppAndroid\app\src\main\AndroidManifest.xml:16:13-41
+25            android:exported="true" >
+25-->C:\Users\zeroa\OneDrive\Documentos\GitHub\hacktober\DiceRollerAppAndroid\app\src\main\AndroidManifest.xml:17:13-36
+26            <intent-filter>
+26-->C:\Users\zeroa\OneDrive\Documentos\GitHub\hacktober\DiceRollerAppAndroid\app\src\main\AndroidManifest.xml:18:13-22:29
+27                <action android:name="android.intent.action.MAIN" />
+27-->C:\Users\zeroa\OneDrive\Documentos\GitHub\hacktober\DiceRollerAppAndroid\app\src\main\AndroidManifest.xml:19:17-69
+27-->C:\Users\zeroa\OneDrive\Documentos\GitHub\hacktober\DiceRollerAppAndroid\app\src\main\AndroidManifest.xml:19:25-66
+28
+29                <category android:name="android.intent.category.LAUNCHER" />
+29-->C:\Users\zeroa\OneDrive\Documentos\GitHub\hacktober\DiceRollerAppAndroid\app\src\main\AndroidManifest.xml:21:17-77
+29-->C:\Users\zeroa\OneDrive\Documentos\GitHub\hacktober\DiceRollerAppAndroid\app\src\main\AndroidManifest.xml:21:27-74
+30            </intent-filter>
+31
+32            <meta-data
+32-->C:\Users\zeroa\OneDrive\Documentos\GitHub\hacktober\DiceRollerAppAndroid\app\src\main\AndroidManifest.xml:24:13-26:36
+33                android:name="android.app.lib_name"
+33-->C:\Users\zeroa\OneDrive\Documentos\GitHub\hacktober\DiceRollerAppAndroid\app\src\main\AndroidManifest.xml:25:17-52
+34                android:value="" />
+34-->C:\Users\zeroa\OneDrive\Documentos\GitHub\hacktober\DiceRollerAppAndroid\app\src\main\AndroidManifest.xml:26:17-33
+35        </activity>
+36
+37        <provider
+37-->[androidx.emoji2:emoji2:1.2.0] C:\Users\zeroa\.gradle\caches\transforms-3\848773e611bbde5d3ec0ec3e63d01c98\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+38            android:name="androidx.startup.InitializationProvider"
+38-->[androidx.emoji2:emoji2:1.2.0] C:\Users\zeroa\.gradle\caches\transforms-3\848773e611bbde5d3ec0ec3e63d01c98\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+39            android:authorities="com.caioiox.diceroller.androidx-startup"
+39-->[androidx.emoji2:emoji2:1.2.0] C:\Users\zeroa\.gradle\caches\transforms-3\848773e611bbde5d3ec0ec3e63d01c98\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+40            android:exported="false" >
+40-->[androidx.emoji2:emoji2:1.2.0] C:\Users\zeroa\.gradle\caches\transforms-3\848773e611bbde5d3ec0ec3e63d01c98\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+41            <meta-data
+41-->[androidx.emoji2:emoji2:1.2.0] C:\Users\zeroa\.gradle\caches\transforms-3\848773e611bbde5d3ec0ec3e63d01c98\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+42                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+42-->[androidx.emoji2:emoji2:1.2.0] C:\Users\zeroa\.gradle\caches\transforms-3\848773e611bbde5d3ec0ec3e63d01c98\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+43                android:value="androidx.startup" />
+43-->[androidx.emoji2:emoji2:1.2.0] C:\Users\zeroa\.gradle\caches\transforms-3\848773e611bbde5d3ec0ec3e63d01c98\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+44            <meta-data
+44-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\zeroa\.gradle\caches\transforms-3\a4f0fb44e9b56370f8c2ed23c9d5d030\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+45                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+45-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\zeroa\.gradle\caches\transforms-3\a4f0fb44e9b56370f8c2ed23c9d5d030\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+46                android:value="androidx.startup" />
+46-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\zeroa\.gradle\caches\transforms-3\a4f0fb44e9b56370f8c2ed23c9d5d030\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+47        </provider>
+48    </application>
+49
+50</manifest>
