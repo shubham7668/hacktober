@@ -1,0 +1,38 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.caioiox.diceroller.app-mergeDebugResources-27:/values-v16/values-v16.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\zeroa\\.gradle\\caches\\transforms-3\\6a19de105318aab1da00cfa3c60fb56e\\transformed\\core-1.8.0\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\zeroa\\.gradle\\caches\\transforms-3\\685980b024686d78956b91eec9b43f3b\\transformed\\appcompat-1.5.1\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "223"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "121",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "289"
+                    }
+                }
+            ]
+        }
+    ]
+}
