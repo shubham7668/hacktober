@@ -1,0 +1,290 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&family=Sacramento:wght@400&&family=Ubuntu:wght@300;400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Poppins, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(
+    to bottom right,
+    rgb(199, 240, 255),
+    rgb(186, 213, 255),
+    rgb(221, 180, 239),
+    rgb(250, 199, 235)
+  );
+}
+
+.container {
+  width: 850px;
+  background: rgba(255, 255, 255, 0.566);
+  backdrop-filter: blur(5px);
+  box-shadow: 0 10px 20px rgb(0, 0, 0, 0.3);
+  border-radius: 12px;
+  padding: 30px 35px;
+}
+
+
+/*:?  Disabling Filter options   */
+.container.disable :where(.editor-panel, .reset-filter, .save-img){
+  opacity: .6;
+  pointer-events: none;
+}
+
+
+.container h2 {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.container .wrapper {
+  display: flex;
+  margin: 20px 0;
+  min-height: 335px;
+}
+
+.wrapper .editor-panel {
+  width: 280px;
+  padding: 15px 20px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.471);
+}
+
+.editor-panel .title {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+
+.editor-panel .options {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.editor-panel .options,
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.editor-panel button {
+  outline: none;
+  height: 40px;
+  font-size: 14px;
+  color: #5e6972;
+  background: #fff;
+  border-radius: 3px;
+  margin-bottom: 8px;
+  border: 1px solid #aaa;
+  transition: all .3s ease-in-out;
+}
+
+.editor-panel .filter button {
+  width: calc(100% / 2 - 4px);
+  transition: all .3s ease-in-out;
+}
+.editor-panel button:hover {
+  background: #b088f4;
+  color: white;
+}
+.filter button.active {
+  color: #fff;
+  border-color: #5372f0;
+  background: #7f55c8;
+}
+.filter .slider {
+  margin-top: 12px;
+  accent-color: #7f55c8;
+}
+
+.filter .slider .filter-info {
+  display: flex;
+  color: #464646;
+  font-size: 14px;
+  justify-content: space-between;
+}
+
+.filter .slider input {
+  width: 100%;
+  height: 5px;
+  accent-color: #9d78de;
+}
+.editor-panel .rotate {
+  margin-top: 17px;
+}
+.editor-panel .rotate button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: calc(100% / 4 - 3px);
+}
+.rotate .options button:nth-child(3),
+.rotate .options button:nth-child(4) {
+  font-size: 18px;
+}
+.rotate .options button:active {
+  color: #fff;
+  background: #683ab8;
+  border-color: #724ab8;
+}
+.wrapper .preview-img {
+  flex-grow: 1;
+  display: flex;
+  overflow: hidden;
+  margin-left: 20px;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+}
+.preview-img img {
+  max-width: 490px;
+  max-height: 335px;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.controls button {
+  padding: 11px 20px;
+  font-size: 14px;
+  border-radius: 3px;
+  outline: none;
+  color: #fff;
+  cursor: pointer;
+  background: none;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+}
+.controls .reset-filter {
+  color: #5e6972;
+  border: 1px solid #88929b;
+}
+.controls .reset-filter:hover {
+  color: #fff;
+  background: #ff7494;
+  border: 1px solid #ff7494;
+}
+.controls .choose-img {
+  background: #5e6972;
+  border: 1px solid #5e6972;
+}
+.controls .save-img {
+  margin-left: 5px;
+  background: #9b70e5;
+  border: 1px solid #8051d0;
+}
+
+.footer__socials {
+  position: absolute;
+  top: 37vh;
+  left: 20px;
+  display: flex;
+  flex-direction: column;
+  font-size: 30px;
+  color: white;
+  background-color: rgba(247, 237, 237, 0.721);
+  padding: 20px 12px;
+  border-radius: 90px;
+}
+
+.fa-brands {
+  color: #725e93;
+  margin: 5px 0;
+  transition: all 0.2s ease-in-out;
+}
+.fa-brands:hover {
+  color: #514565;
+  transform: scale(1.3);
+  text-shadow: 0px 0px 10px white;
+}
+
+.footer {
+  font-size: 20px;
+  position: absolute;
+  bottom: 3px;
+  color: #681ab5;
+  text-shadow: 0 0 15px white;
+}
+
+.sign {
+  font-weight: bold;
+  font-size: 25px;
+  font-family: Sacramento, system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+  text-decoration: none;
+  color: #681ab5;
+  text-shadow: 0 0 10px white;
+  transition: all .3s ease-in-out;
+}
+.sign:hover {
+  /* color: rgb(136, 255, 136); */
+  color: #2d0654;
+  text-shadow: 0 0 20px 5px white;
+}
+
+
+
+
+
+
+@media screen and (max-width: 760px) {
+
+  .container {
+    padding: 25px;
+    background: transparent;
+    box-shadow: none;
+    backdrop-filter: blur(5px);
+    height: 100%;
+    padding-bottom: 50px;
+  }
+  .container .wrapper {
+    flex-wrap: wrap-reverse;
+  }
+  .wrapper .editor-panel {
+    width: 100%;
+  }
+  .wrapper .preview-img {
+    width: 100%;
+    margin: 0 0 15px;
+  }
+  .footer{
+    position: fixed;
+    text-align: center;
+    font-size: 14px;
+  }
+  .sign{
+    font-size: 18px;
+  }
+  .footer__socials{
+    flex-direction: row;
+    top: 10px;
+    left: auto;
+    right: 10px;
+    padding: 12px 12px;
+    font-size: 16px;
+  }
+  .fa-brands{
+    margin: 0 5px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .controls button {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .controls .row {
+    width: 100%;
+  }
+  .controls .row .save-img {
+    margin-left: 0px;
+  }
+}

@@ -1,9 +1,10 @@
 ## Rules  
 
-**NO DSA CODES WILL BE ALLOWED**  
+**1)NO DSA CODES WILL BE ALLOWED**  
 Alternative ->   
-1)Create a page using HTML,CSS,JavaScript(If you are new to open source).   
-2)Or else You can contribute in projects of your choice whether it is based on    
+2)Create a page using HTML,CSS,JavaScript (If you are new to open source).  
+                 OR   
+2)You can contribute in projects of your choice whether it is based on    
 
    •ANDROID  
    •WEB DEV  
