@@ -1,29 +1,28 @@
-## Welcome to Hacktober Fest 
-
-• EVERYONE IS WELCOME    
-• QUANTITY IS FUN, QUALITY IS KEY    
-• SHORT-TERM ACTION, LONG-TERM IMPACT    
-
-• Contribute anything to start with 🙌
-
-## How to participate :  
-
-• Register anytime between September 26 and October 31.
-
-• Pull requests can be made in any GITHUB or GITLAB hosted project that’s participating in Hacktoberfest (look for the “hacktoberfest” topic).
-
-• Project maintainers must accept your pull/merge requests for them to count toward your total.
-
-• Have 4 pull/merge requests accepted between October 1 and October 31 to complete Hacktoberfest.
-
-• The first 40,000 participants (maintainers and contributors) who complete Hacktoberfest can elect to receive one of two prizes: a tree planted in their name, or the   Hacktoberfest 2022 t-shirt.
-
-• For more info headover to https://hacktoberfest.com/participation/
+## Contributing  
 
 
-## LICENSE
-  
-[MIT](https://github.com/shubham7668/potfolio/blob/main/LICENSE)
+**1.** Fork [this](https://github.com/shubham7668/hacktober) repository.
 
-## Show some love by giving star to this repo.  
-  
+**2.** Clone your forked copy of the project.
+
+**3.** Navigate to the project directory.  
+
+**4.** Add a reference(remote) to the original repository.  
+
+**5.** Check the remotes for this repository.
+
+**6.** Always take a pull from the upstream repository to your master branch to keep it at par with the main project(updated repository).
+
+**7.** Create a new branch.
+
+**8.** Perfom your desired changes to the code base.  
+
+**9.** Commit your changes.  
+
+**10.** Push the committed changes in your feature branch to your remote repo.  
+
+**11.** To create a pull request, click on `compare and pull requests`.   
+
+**12.** Add appropriate title and description to your pull request explaining your changes and efforts done.  
+
+**13.** Click on `Create Pull Request`.
