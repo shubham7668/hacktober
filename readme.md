@@ -1,3 +1,9 @@
+## Excluded  
+This repo is excluded from Hacktoberfest  
+![image](https://user-images.githubusercontent.com/54644253/194053421-bebfa605-8762-4d5c-aefb-235f4d20660f.png)
+
+ 
+
 ## Rules  
 
 **1)NO DSA CODES WILL BE ALLOWED**  
