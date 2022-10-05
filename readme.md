@@ -1,9 +1,7 @@
 ## Excluded  
 This repo is excluded from Hacktoberfest  
-![image](https://user-images.githubusercontent.com/54644253/194053421-bebfa605-8762-4d5c-aefb-235f4d20660f.png)
 
 ## Alternative  
-
 if you have web proejcts head over to [WebDev](https://github.com/shubham7668/WebDev).
 
  
