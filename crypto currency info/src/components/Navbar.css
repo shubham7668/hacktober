@@ -1,0 +1,9 @@
+.header{
+    display: flex;
+    flex-direction: row;
+   justify-content: center;
+   align-items: center;
+}
+.icon{
+    font-size:7vh;
+}
