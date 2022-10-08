@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "DM sans" , sans-serif;
+}
+.box {
+  margin: 50px auto;
+  width: 90%;
+}
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  margin-bottom: 20px;
+}
+ul li {
+  background: #eee;
+  padding: .5rem 1rem;
+  color: #222;
+  margin: 10px;
+  list-style: none;
+  border: 1px solid #222;
+  border-radius: .5rem;
+}
+.items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.item {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  display: grid;
+  place-items: center;
+  font-weight: 600;
+  font-size: 22px;
+  border-radius: 20px;
+  color: #fff;
+  transition: 0.5s;
+}
+.red {
+  background: red;
+}
+
+.yellow {
+  background: #d4b700;
+}
+
+.orange {
+  background: orange;
+}
+.purple {
+  background: purple;
+}
+.green {
+  background: green;
+}
+
+.active {
+  background: #007dd4;
+  color: #fff;
+}
+.hide {
+  height: 0;
+  width: 0;
+
+  overflow: hidden;
+
+  margin: 0;
+  border-radius: 50%;
+}
