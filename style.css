@@ -1,0 +1,155 @@
+body{
+    background-color:hsl(216, 12%, 8%) ;
+  
+  font-family: 'Overpass', sans-serif;
+   display: flex;
+   flex-direction: column;
+}
+.container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color:  hsl(213, 19%, 18%);
+    width: 22.6rem;
+    height: 21.6rem;
+    border-radius: 7%;
+    display: flex;
+    flex-direction: column;
+}
+.str{
+    display: flex;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    background-color: rgb(45, 56, 68);
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    justify-content:center ;
+    align-items: center;
+ }
+ h2{
+    
+    margin-left: 2rem;
+   color: aliceblue;
+}
+p{
+  
+    margin-left: 2rem;
+    color: hsl(217, 12%, 63%);
+    font-size: 15px;
+}
+.gole{
+  
+ display: flex;
+ flex-direction: row;
+
+ margin-left: 2rem;
+ color: aliceblue;
+ border-radius: 50%;
+}
+.gola
+{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    background-color: rgb(45, 56, 68);
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.golaa{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    background-color: rgb(45, 56, 68);
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-left: 1.5rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.gola:hover{
+   background-color:  hsl(217, 12%, 63%);
+}
+.golaa:hover{
+    background-color:  hsl(217, 12%, 63%);
+
+}
+.submit{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+    margin-left: 2rem;
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    margin-right: 1rem;
+    height: 2rem;
+    align-items: center;
+    border-radius: 20px;
+   
+}
+.submit:hover{
+    color:orange;
+    background-color: white;
+}
+.goli{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-left: 1.5rem;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: rgb(255, 132, 0);
+}
+.containerr{
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color:  hsl(213, 19%, 18%);
+    width: 22.6rem;
+    height: 21.6rem;
+    border-radius: 7%;
+    display: flex;
+    flex-direction: column;
+   
+}
+.thanks{
+    width: 8rem;
+    height: 6rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+
+}
+.result{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.5rem;
+    color: orange;
+    background-color: rgb(45, 56, 68);
+    border-radius: 17px;
+    font-size: small ;
+    padding: 0.5rem;
+}
+.thanku{
+    margin-left: auto;
+    margin-right: auto;
+}
+.para{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: small;
+    margin-left: 2rem;
+    margin-right: 2rem;
+
+}
+.hide{
+    display: none;
+}
