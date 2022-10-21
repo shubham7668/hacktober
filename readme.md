@@ -1,6 +1,3 @@
-## Excluded  
-This repo is excluded from Hacktoberfest  
-
 ## Alternative  
 if you have web proejcts head over to [WebDev](https://github.com/shubham7668/WebDev).
 
