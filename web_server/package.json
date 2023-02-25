@@ -13,10 +13,10 @@
   "license": "ISC",
   "dependencies": {
     "dotenv": "^8.2.0",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "hbs": "^4.1.2",
     "postman-request": "^2.88.1-postman.22",
-    "tailwindcss": "^1.4.5"
+    "tailwindcss": "^2.2.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.3"
