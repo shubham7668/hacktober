@@ -4,7 +4,8 @@ import java.util.Scanner;
 
 public class StrReturn {
     public static void main(String[] args) {
-        System.out.println(greet());
+        String lan=greet();
+        System.out.println("Selected language is :"+lan)
 
     }
     static String greet(){
