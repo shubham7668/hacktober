@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python Code</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1 class="heading">Longest Substring Without Repeating Characters in Python</h1>
+    <pre><code class="python-code">
+def lengthOfLongestSubstring(self, s: str) -> int:
+    max_count = 0
+    current_count = 0
+
+    temp_string = ""
+    l = 0
+    r = 0
+    while r < len(s):
+        if s[r] not in temp_string:
+            temp_string += s[r]
+            current_count += 1
+            r += 1
+        else:
+            if current_count > max_count:
+                max_count = current_count
+                
+            l += 1
+            r = l
+            temp_string = ""
+            current_count = 0
+    
+    return max(current_count, max_count)
+    </code></pre>
+</body>
+</html>

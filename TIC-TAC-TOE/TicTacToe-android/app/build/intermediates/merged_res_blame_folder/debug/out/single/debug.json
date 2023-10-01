@@ -1,0 +1,130 @@
+[
+    {
+        "merged": "D:\\apps\\tic-tac-toe-foss-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_roundedbutton.xml.flat",
+        "source": "D:\\apps\\tic-tac-toe-foss-main\\app\\src\\main\\res\\drawable\\roundedbutton.xml"
+    },
+    {
+        "merged": "D:\\apps\\tic-tac-toe-foss-main\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_splashscreen.xml.flat",
+        "source": "D:\\apps\\tic-tac-toe-foss-main\\app\\src\\main\\res\\layout\\activity_splashscreen.xml"
+    },
+    {
+        "merged": "D:\\apps\\tic-tac-toe-foss-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "D:\\apps\\tic-tac-toe-foss-main\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "D:\\apps\\tic-tac-toe-foss-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_x.png.flat",
+        "source": "D:\\apps\\tic-tac-toe-foss-main\\app\\src\\main\\res\\drawable\\x.png"
+    },
+    {
+        "merged": "D:\\apps\\tic-tac-toe-foss-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_menuimg.png.flat",
+        "source": "D:\\apps\\tic-tac-toe-foss-main\\app\\src\\main\\res\\drawable\\menuimg.png"
+    },
+    {
+        "merged": "D:\\apps\\tic-tac-toe-foss-main\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\apps\\tic-tac-toe-foss-main\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\apps\\tic-tac-toe-foss-main\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "D:\\apps\\tic-tac-toe-foss-main\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\apps\\tic-tac-toe-foss-main\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "D:\\apps\\tic-tac-toe-foss-main\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "D:\\apps\\tic-tac-toe-foss-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tileo.png.flat",
+        "source": "D:\\apps\\tic-tac-toe-foss-main\\app\\src\\main\\res\\drawable\\tileo.png"
+    },
+    {
+        "merged": "D:\\apps\\tic-tac-toe-foss-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icon.png.flat",
+        "source": "D:\\apps\\tic-tac-toe-foss-main\\app\\src\\main\\res\\drawable\\icon.png"
+    },
+    {
+        "merged": "D:\\apps\\tic-tac-toe-foss-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_coloredsplash.png.flat",
+        "source": "D:\\apps\\tic-tac-toe-foss-main\\app\\src\\main\\res\\drawable\\coloredsplash.png"
+    },
+    {
+        "merged": "D:\\apps\\tic-tac-toe-foss-main\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\apps\\tic-tac-toe-foss-main\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\apps\\tic-tac-toe-foss-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tileempty.png.flat",
+        "source": "D:\\apps\\tic-tac-toe-foss-main\\app\\src\\main\\res\\drawable\\tileempty.png"
+    },
+    {
+        "merged": "D:\\apps\\tic-tac-toe-foss-main\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "D:\\apps\\tic-tac-toe-foss-main\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\apps\\tic-tac-toe-foss-main\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "D:\\apps\\tic-tac-toe-foss-main\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "D:\\apps\\tic-tac-toe-foss-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_splashtext.png.flat",
+        "source": "D:\\apps\\tic-tac-toe-foss-main\\app\\src\\main\\res\\drawable\\splashtext.png"
+    },
+    {
+        "merged": "D:\\apps\\tic-tac-toe-foss-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_githubpng.png.flat",
+        "source": "D:\\apps\\tic-tac-toe-foss-main\\app\\src\\main\\res\\drawable\\githubpng.png"
+    },
+    {
+        "merged": "D:\\apps\\tic-tac-toe-foss-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "D:\\apps\\tic-tac-toe-foss-main\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "D:\\apps\\tic-tac-toe-foss-main\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "D:\\apps\\tic-tac-toe-foss-main\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\apps\\tic-tac-toe-foss-main\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "D:\\apps\\tic-tac-toe-foss-main\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "D:\\apps\\tic-tac-toe-foss-main\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "D:\\apps\\tic-tac-toe-foss-main\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\apps\\tic-tac-toe-foss-main\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_menu.xml.flat",
+        "source": "D:\\apps\\tic-tac-toe-foss-main\\app\\src\\main\\res\\layout\\activity_menu.xml"
+    },
+    {
+        "merged": "D:\\apps\\tic-tac-toe-foss-main\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "D:\\apps\\tic-tac-toe-foss-main\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\apps\\tic-tac-toe-foss-main\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "D:\\apps\\tic-tac-toe-foss-main\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "D:\\apps\\tic-tac-toe-foss-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tilex.png.flat",
+        "source": "D:\\apps\\tic-tac-toe-foss-main\\app\\src\\main\\res\\drawable\\tilex.png"
+    },
+    {
+        "merged": "D:\\apps\\tic-tac-toe-foss-main\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "D:\\apps\\tic-tac-toe-foss-main\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\apps\\tic-tac-toe-foss-main\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "D:\\apps\\tic-tac-toe-foss-main\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "D:\\apps\\tic-tac-toe-foss-main\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "D:\\apps\\tic-tac-toe-foss-main\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\apps\\tic-tac-toe-foss-main\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "D:\\apps\\tic-tac-toe-foss-main\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\apps\\tic-tac-toe-foss-main\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "D:\\apps\\tic-tac-toe-foss-main\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "D:\\apps\\tic-tac-toe-foss-main\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\apps\\tic-tac-toe-foss-main\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\apps\\tic-tac-toe-foss-main\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "D:\\apps\\tic-tac-toe-foss-main\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
+    }
+]

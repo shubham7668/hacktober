@@ -1,0 +1,94 @@
+[
+    {
+        "merged": "com.caioiox.diceroller.app-merged_res-29:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.caioiox.diceroller.app-main-31:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.caioiox.diceroller.app-merged_res-29:/drawable_dice_2.xml.flat",
+        "source": "com.caioiox.diceroller.app-main-31:/drawable/dice_2.xml"
+    },
+    {
+        "merged": "com.caioiox.diceroller.app-merged_res-29:/drawable_dice_1.xml.flat",
+        "source": "com.caioiox.diceroller.app-main-31:/drawable/dice_1.xml"
+    },
+    {
+        "merged": "com.caioiox.diceroller.app-merged_res-29:/layout_activity_main.xml.flat",
+        "source": "com.caioiox.diceroller.app-main-31:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.caioiox.diceroller.app-merged_res-29:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.caioiox.diceroller.app-main-31:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.caioiox.diceroller.app-merged_res-29:/drawable_dice_4.xml.flat",
+        "source": "com.caioiox.diceroller.app-main-31:/drawable/dice_4.xml"
+    },
+    {
+        "merged": "com.caioiox.diceroller.app-merged_res-29:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.caioiox.diceroller.app-main-31:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.caioiox.diceroller.app-merged_res-29:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.caioiox.diceroller.app-main-31:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.caioiox.diceroller.app-merged_res-29:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.caioiox.diceroller.app-main-31:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.caioiox.diceroller.app-merged_res-29:/drawable_dice_5.xml.flat",
+        "source": "com.caioiox.diceroller.app-main-31:/drawable/dice_5.xml"
+    },
+    {
+        "merged": "com.caioiox.diceroller.app-merged_res-29:/drawable_dice_6.xml.flat",
+        "source": "com.caioiox.diceroller.app-main-31:/drawable/dice_6.xml"
+    },
+    {
+        "merged": "com.caioiox.diceroller.app-merged_res-29:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.caioiox.diceroller.app-main-31:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.caioiox.diceroller.app-merged_res-29:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.caioiox.diceroller.app-main-31:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.caioiox.diceroller.app-merged_res-29:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.caioiox.diceroller.app-pngs-24:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.caioiox.diceroller.app-merged_res-29:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.caioiox.diceroller.app-main-31:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.caioiox.diceroller.app-merged_res-29:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.caioiox.diceroller.app-main-31:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.caioiox.diceroller.app-merged_res-29:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.caioiox.diceroller.app-main-31:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.caioiox.diceroller.app-merged_res-29:/xml_data_extraction_rules.xml.flat",
+        "source": "com.caioiox.diceroller.app-main-31:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.caioiox.diceroller.app-merged_res-29:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.caioiox.diceroller.app-main-31:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.caioiox.diceroller.app-merged_res-29:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.caioiox.diceroller.app-main-31:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.caioiox.diceroller.app-merged_res-29:/drawable_dice_3.xml.flat",
+        "source": "com.caioiox.diceroller.app-main-31:/drawable/dice_3.xml"
+    },
+    {
+        "merged": "com.caioiox.diceroller.app-merged_res-29:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.caioiox.diceroller.app-main-31:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.caioiox.diceroller.app-merged_res-29:/xml_backup_rules.xml.flat",
+        "source": "com.caioiox.diceroller.app-main-31:/xml/backup_rules.xml"
+    }
+]

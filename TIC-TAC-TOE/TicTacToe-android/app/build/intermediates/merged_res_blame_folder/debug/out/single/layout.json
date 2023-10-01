@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\apps\\tic-tac-toe-foss-main\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_splashscreen.xml",
+        "source": "D:\\apps\\tic-tac-toe-foss-main\\app\\src\\main\\res\\layout\\activity_splashscreen.xml"
+    },
+    {
+        "merged": "D:\\apps\\tic-tac-toe-foss-main\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_menu.xml",
+        "source": "D:\\apps\\tic-tac-toe-foss-main\\app\\src\\main\\res\\layout\\activity_menu.xml"
+    },
+    {
+        "merged": "D:\\apps\\tic-tac-toe-foss-main\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "D:\\apps\\tic-tac-toe-foss-main\\app\\src\\main\\res\\layout\\activity_main.xml"
+    }
+]

@@ -1,0 +1,606 @@
+body {
+    margin: 0px;
+}
+
+/*Bodey header*/
+#body-header {
+    height: 65vh;
+    opacity: 0.85;
+    background-image: url('IMG/bh1.jpg');
+    /* background-size: 100% 100%; */
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+/*horizontal-list*/
+.horizontal-list {
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px 0px;
+}
+
+.horizontal-list li {
+    display: inline-block;
+    text-decoration: none;
+    margin: 2vh 8px;
+    font-size: 1.5rem;
+
+}
+
+.horizontal-list li a {
+    font-size: 1rem;
+    color: white;
+    text-decoration: none;
+    /* transition: margin 0.3s,box-shadow 0.4s,font-size 0.3s; */
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.horizontal-list li a:hover {
+    margin: 0px 2px 0px 2px;
+    box-shadow: opx opx 2px 2px lightgray;
+    font-size: 1.03rem;
+    color: lightgrey;
+    border-bottom: 1px solid white;
+    text-decoration: none;
+    /* transition: color 0.5s , border-bottom 4s;  */
+    transition: margin 0.3s, box-shadow 0.4s, font-size 0.2s;
+    font-weight: bolder;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.name-social-container h1 {
+    margin-top: 25vh;
+
+
+}
+
+.name-social-container a i {
+    padding: 10px;
+    font-size: 2rem;
+    color: white;
+    margin-left: 10px;
+    border-radius: 50%;
+    transition: font-size 0.3s, margin 0.3s;
+
+}
+
+.name-social-container a i:hover {
+    box-shadow: 0px 0px 6px 4px lightgrey;
+    /*horizontaloffset verticaloffset blur spread color;*/
+    font-size: 2.5rem;
+    margin: 0px 2px 0px 2px;
+}
+
+#my-name {
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 0.5rem;
+    margin-TOP: 141px;
+    ;
+}
+
+#about {
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+
+#my-image {
+    height: 12rem;
+    width: 12rem;
+
+    margin-top: -15vh;
+    border-radius: 50%;
+    box-shadow: 0px 0px 2px 2px lightgrey;
+    opacity: 0.98;
+
+}
+
+#my-image:hover {
+
+    height: 12.5rem;
+    width: 12.5rem;
+    margin-top: -15vh;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px 6px rgb(104, 99, 99);
+    opacity: 1;
+    transition: height 0.4s, width 0.4s, border-shadow 0.4s, opacity 0.2s;
+
+
+}
+
+#my-image img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+#about-para {
+    padding: 10px;
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    color: grey;
+    line-height: 28px;
+    font-weight: 100;
+    font-size: 1.1rem;
+}
+
+section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section:nth-child(2n) {
+    background-color: rgba(255, 255, 255, 0.856);
+}
+
+section:nth-child(2n+1) {
+    background-color: white;
+}
+
+.mb75px {
+    margin-bottom: 75px;
+
+}
+
+.section-heading {
+    width: auto;
+    padding: 20px 10px 10px;
+    font-weight: 400;
+
+
+}
+
+.section-heading span {
+    font-size: 40px;
+    color: #2857a4;
+    display: inline-block;
+    padding-top: 10px;
+    margin-right: 0.5rem;
+}
+
+.skills-display {
+    width: 35%;
+
+    /* height: 100px;
+    border: 2px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.skill-name span {
+    color: white;
+    font-size: 0.8rem;
+}
+
+.skill-progress {
+    width: 7rem;
+    height: 1.4rem;
+    margin: 2rem 1.5rem;
+    background-color: lightgrey;
+    border-radius: 0.8rem;
+    /* border: 2px solid black; */
+
+}
+
+.skill-progress>div {
+    border-radius: 20px 0px 0px 20px;
+    padding-left: 12px;
+    padding-top: 1.5px;
+
+}
+
+/* percentage classes */
+.eighty-per {
+    box-sizing: border-box;
+    width: 72%;
+    height: inherit;
+    background-color: #5570e1;
+    ;
+
+}
+
+.seventy-five-per {
+    box-sizing: border-box;
+    width: 70%;
+    height: inherit;
+    background-color: #e64c5b;
+    ;
+
+}
+
+.seventy-per {
+    box-sizing: border-box;
+    width: 70%;
+    height: inherit;
+    background-color: #35c460;
+    ;
+
+}
+
+.sixty-per {
+    box-sizing: border-box;
+    width: 60%;
+    height: inherit;
+    background-color: #f65757;
+    ;
+
+}
+
+.fifty-five-per {
+    box-sizing: border-box;
+    width: 55%;
+    height: inherit;
+    background-color: rgb(55, 233, 246);
+    ;
+
+}
+
+.fifty-per {
+    box-sizing: border-box;
+    width: 50%;
+    height: inherit;
+    background-color: #12552a;
+
+
+
+}
+
+
+
+
+/* Experiences section  */
+.fa-plane:before {
+    content: "\f072";
+    font-size: 25px;
+}
+.fa-car-side:before {
+    content: "\f5e4";
+    font-size: 25px;
+}
+
+.timeline {
+    position: relative;
+    width: 75%;
+}
+
+.timeline-box {
+    padding: 5px;
+    width: 40%;
+    min-height: 150px;
+    position: relative;
+    left: 5%;
+    text-align: right;
+}
+
+.timeline-box::after {
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: lightgrey;
+    top: 23%;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.timeline-box:nth-child(2n) {
+    left: 53%;
+}
+
+.timeline-box:nth-child(2n+1)::after {
+    top: 33px;
+    right: -11.8%;
+}
+
+.timeline-box:nth-child(2n)::after {
+    left: -9%;
+}
+
+
+.timeline-container {
+    padding: 8px;
+}
+
+.timeline-logo {
+    position: absolute;
+    width: 50px;
+    overflow: hidden;
+}
+
+.timeline-logo>img {
+    width: 100%;
+}
+
+#timeline-divider {
+    position: absolute;
+    width: 0;
+    top: 5%;
+    left: 50%;
+    border: 1px dashed #0096fa6b;
+    height: 66%;
+    color: #433E3F;
+}
+
+#timeline-divider .timeline-traveller {
+    position: sticky;
+    top: 135px;
+    z-index: 2;
+}
+
+#timeline-divider i {
+    transform: rotate(90deg);
+    margin-top: -35px;
+    display: block;
+    color: #2857a4;
+}
+
+
+.experience-designation {
+    font-size: 1.4rem;
+}
+
+.experience-company-name {
+    margin: 5px 0 0;
+    color: #eb822d;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.experience-duration {
+    color: #9e9b9b;
+    font-weight: 100;
+    color: grey;
+    font-size: 1rem;
+}
+
+.experience-description {
+    font-size: 14px;
+    padding: 2px;
+    color: grey;
+    line-height: 20px;
+}
+
+.text-align-justify {
+    text-align: justify;
+}
+
+
+
+/* Portfolio section */
+
+
+#portfolio-container {
+    border-radius: 15%;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 50px;
+    margin-bottom: 20px;
+    justify-content: space-around;
+}
+
+.portfolio-image-container {
+    border-radius: 15%;
+    max-width: 300px;
+    overflow: hidden;
+    margin: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.portfolio-image-container img {
+    border-radius: 15%;
+    width: 100%;
+    height: 100%;
+}
+
+.portfolio-details {
+    border-radius: 15%;
+    box-sizing: border-box;
+    transition: all 0.5s ease-in-out;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    color: transparent;
+    text-align: center;
+    padding: 10px;
+}
+
+.portfolio-image-container:hover {
+    border-radius: 15%;
+    box-shadow: 0 0 20px #74ADC8;
+}
+
+.portfolio-image-container:hover .portfolio-details {
+    border-radius: 15%;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    background-color: #80808078;
+    color: white;
+}
+
+
+
+
+
+
+
+
+/* contact form  */
+
+
+#contact {
+    background-color: #0abcf9;
+    background-image: linear-gradient(50deg, darkgrey 0%, black 74%);
+    color: white;
+    padding-bottom: 40px;
+}
+
+#contact h1,
+#contact h1 span {
+    color: white;
+}
+
+#contact-form {
+    margin-left: 20%;
+}
+
+#contact-container {
+    display: flex;
+}
+
+#my-details-container {
+    width: 35%;
+    margin-left: 6%;
+}
+
+#my-details-container h3 {
+    color: white;
+    font-weight: 550;
+    font-size: 1.2rem;
+}
+
+#contact-form-container {
+    width: 50%;
+}
+
+#my-details-container p {
+    color: #d9dcdd;
+    font-size: 0.9rem;
+}
+
+.my-details-info-container {
+    margin-bottom: 20px;
+    color: #d9dcdd;
+    font-size: 1rem;
+}
+
+.my-details-info-container span {
+    margin-left: 0.4rem;
+}
+
+.my-details-info-container i {
+    color: white;
+}
+
+.my-details-icon {
+    width: 1rem;
+    height: 1rem;
+    vertical-align: bottom;
+    margin-right: 0.5rem;
+}
+
+
+#contact-form input,
+textarea {
+    max-width: 90%;
+    margin: 15px;
+    padding: 4px 10px;
+    border: 0px solid transparent;
+    border-bottom: 2px solid white;
+    color: #d9dcdd;
+    background: transparent;
+    width: 90%;
+    line-height: 1.6;
+    font-size: 1.05rem;
+}
+
+#contact-form button[type="submit"] {
+    background: transparent;
+    font-size: 0.95rem;
+    border: 2px solid white;
+    margin-top: 5%;
+    margin-left: 35%;
+    border-radius: 2px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.046875em;
+    line-height: 1;
+    padding: 0.8em 0.8em 0.78em;
+    text-transform: uppercase;
+    border-radius: 15px;
+}
+
+#contact-form button:hover {
+    background: transparent;
+    background-color: white;
+    color: black;
+
+}
+
+#contact .social-icons li a i {
+    font-size: 1.2rem;
+    margin: 40px 10px 10px;
+    padding: 10px 14px 20px 10px;
+
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+.text-center ul li {
+    display: inline-block;
+    height: 2rem;
+    width: 2rem;
+    font-size: 1rem;
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    /* transition: margin 0.3s,box-shadow 0.4s,font-size 0.3s; */
+    font-family: 'Times New Roman', Times, serif;
+    margin: 2vh 8px;
+
+
+
+
+}
+
+.text-center ul li a {
+    font-size: 1rem;
+    color: white;
+    text-decoration: none;
+    /* transition: margin 0.3s,box-shadow 0.4s,font-size 0.3s; */
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.text-center ul li a:hover {
+    margin: 0px 2px 0px 2px;
+    box-shadow: opx opx 2px 2px lightgray;
+    font-size: 1.03rem;
+    color: lightgrey;
+    text-decoration: none;
+    /* transition: color 0.5s , border-bottom 4s;  */
+    transition: margin 0.3s, box-shadow 0.4s, font-size 0.2s;
+    font-weight: bolder;
+
+}
+
+::placeholder {
+    color: white;
+}

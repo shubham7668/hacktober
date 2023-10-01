@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">TicTacToe</string>
+    <string name="playerXTurn">Player X\'s turn</string>
+    <string name="reset">RESET</string>
+    <string name="ImgViwDesc">TicTacToeGame</string>
+    <string name="splash_img">splash img</string>
+    <string name="playwithhuman">Start Playing</string>
+    <string name="github_button">Github Button to open tic-tac-toe-foss repository</string>
+    <string name="r3c1">3rd row, 1st column of game table layout</string>
+    <string name="r3c2">3rd row, 2nd column of game table layout</string>
+    <string name="r3c3">3rd row, 3rd column of game table layout</string>
+</resources>

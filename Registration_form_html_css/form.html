@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="survey">
+        <h1>ARES SURVEY FORM</h1>
+        <form action="thanks.html">
+            <label for="name">Name</label>
+            <br>
+            <input id="name" type="text" placeholder="Enter your name" name="name" required>
+            <br><br>
+            <label for="email">Email</label>
+            <br>
+            <input id="email" type="email" placeholder="Enter your Email" name="email" required>
+            <br><br>
+            <label for="age">Age (optional)</label>
+            <br>
+            <input id="age" type="number" placeholder="Age" name="age">
+            <br><br>
+            <label for="role">Which option best describes your current role?</label>
+            <br>
+            <select name="role" id="role" required>
+                <option value="" disabled selected hidden>Select current role</option>
+                <option value="Web Developer">Web Developer</option>
+                <option value="Robotics">Robotics</option>
+                <option value="Design">Design and Content Writing</option>
+                <option value="PR">Sponsorships and PR</option>
+            </select>
+            <br><br>
+            <label for="excite">What is that one thing which excites you most about ARES?</label><br>
+            <select name="excite" id="excite" required>
+                <option value="" disabled selected hidden>Select an option</option>
+                <option value="Robotics">Robotics</option>
+                <option value="Artificial Intelligence">Artificial Intelligence</option>
+                <option value="Mech">Mechanical and Mechatronics</option>
+                <option value="Automation">Automation</option>
+            </select>
+            <br><br>
+            <label for="suggestions">Any comments or suggestions?</label>
+            <br>
+            <textarea name="suggestions" id="suggestions" placeholder="Enter your comment here..."></textarea>
+            <br><br>
+            <button>Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>

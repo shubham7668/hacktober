@@ -1,9 +1,27 @@
-# Update  
-Not accepting CPP/C dsa codes      
-Alternative -> 1)Create a page using html & css    
-               Add dsa problem statement and solution in that  
-               2)You can contribute in python  
-# Make sure follow me & star the repo for faster merge  
+## Alternative  
+if you have web proejcts head over to [WebDev](https://github.com/shubham7668/WebDev).
+
+ 
+
+## Rules  
+
+**1)NO DSA CODES WILL BE ALLOWED**  
+Alternative ->   
+2)Create a page using HTML,CSS,JavaScript (If you are new to open source).  
+                 OR   
+2)You can contribute in projects of your choice whether it is based on    
+
+   •ANDROID  
+   •WEB DEV  
+   •MACHINE LEARNING  
+   •ROBOTICS  
+   •PYTHON  
+   •Any techstack(But make sure it is worthy enough!)
+
+3)Add snapshots or **Deployed link** of working project .    
+4)Make sure follow [Shubham](https://github.com/shubham7668) & star the repo.     
+  
+NOTE ⚠ : Dont push non working projects we will thoroughly check.
 
 ## Welcome to Hacktober Fest 
 
@@ -31,6 +49,4 @@ Alternative -> 1)Create a page using html & css
 ## LICENSE
   
 [MIT](https://github.com/shubham7668/potfolio/blob/main/LICENSE)
-
-## Make sure to star the repo*  
   

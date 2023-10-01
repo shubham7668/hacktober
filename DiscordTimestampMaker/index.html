@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discord Timestamp Generator</title>
+    <script src="./generator.js"></script>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <label for="datetime">Enter the desired time as it would be for your own timezone:</label>
+        <input type="datetime-local" name="datetime" id="i_datetime">
+    </form>
+    <button onclick="getFormData()">Generate</button>
+
+	<table>
+		<tr>
+			<th>Format</th>
+			<th>Appearance</th>
+			<th>Code</th>
+		</tr>
+		<tr>
+			<td>
+				Short Time
+			</td>
+			<td id="a_shorttime">
+
+			</td>
+			<td id="c_shorttime">
+
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Long Time
+			</td>
+			<td id="a_longtime">
+
+			</td>
+			<td id="c_longtime">
+
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Short Date
+			</td>
+			<td id="a_shortdate">
+
+			</td>
+			<td id="c_shortdate">
+
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Long Date
+			</td>
+			<td id="a_longdate">
+
+			</td>
+			<td id="c_longdate">
+
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Short Date-Time
+			</td>
+			<td id="a_shortdatetime">
+
+			</td>
+			<td id="c_shortdatetime">
+
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Long Date-Time
+			</td>
+			<td id="a_longdatetime">
+
+			</td>
+			<td id="c_longdatetime">
+
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Relative
+			</td>
+			<td id="a_relative">
+
+			</td>
+			<td id="c_relative">
+
+			</td>
+		</tr>
+	</table>
+
+    <script>
+		// Establish an example for page visitors
+        let timeAtPageLoad = new Date();
+        timeAtPageLoad.setMilliseconds(null);
+        timeAtPageLoad.setMinutes(timeAtPageLoad.getMinutes() - timeAtPageLoad.getTimezoneOffset());
+        let datetimeField = document.getElementById("i_datetime");
+        datetimeField.value = timeAtPageLoad.toISOString().slice(0,-1);
+		getFormData();
+    </script>
+</body>
+</html>
